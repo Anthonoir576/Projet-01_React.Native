@@ -1,4 +1,4 @@
-import React                     from 'react';
+import React, { useState }       from 'react';
 import { Text, 
          View,
          StyleSheet,
@@ -9,12 +9,15 @@ import { Text,
 
 const Search = () => {
 
-   
+   const [ville, setVille] = useState('ma ville');
 
     return (
-        <View>
-           <TextInput 
+        <View style={{marginTop: 40}}>
+           <TextInput
+            underlineColorAndroid='transparent' 
             style={{height:40, borderColor: 'gray', borderWidth: 1}}
+            value={ville}
+            onChangeText={(text) => {setVille(text)}}
            /> 
         </View>
     );
