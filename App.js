@@ -1,13 +1,27 @@
-import React                       from 'react';
-import { StatusBar }               from 'expo-status-bar';
-import { StyleSheet, Text, View }  from 'react-native';
-import About                       from './components/About/About';
-import Search                      from './components/Search/Search';
+import * as React                     from 'react';
+import { StatusBar }                  from 'expo-status-bar';
+import { StyleSheet, Text, View }     from 'react-native';
+import About                          from './components/About/About';
+import Search                         from './components/Search/Search';
+import { NavigationContainer }        from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Navigation                     from './components/Navigation/Navigation';
 
+
+ 
 export default function App() {
+
+  const Stack = createNativeStackNavigator();
+
+
   return (
-    <View>
-       <Search  />
-    </View>
+
+    <NavigationContainer>
+      <Navigation />
+      <Stack.Navigator>
+        <Stack.Screen name="Search" component={Search} />
+        <Stack.Screen name="About" component={About} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
