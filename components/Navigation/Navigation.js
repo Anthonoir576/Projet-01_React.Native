@@ -27,7 +27,6 @@ const Navigation = () => {
           <Button
             title="Search"
             onPress={goToSearch}
-            style={{marginTop: 20}}
           />
         </View>
       );

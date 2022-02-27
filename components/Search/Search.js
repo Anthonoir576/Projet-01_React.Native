@@ -12,7 +12,7 @@ const Search = () => {
    const [ville, setVille] = useState('ma ville');
 
     return (
-        <View style={{marginTop: 40}}>
+        <View style={{marginTop: 40, margin: .5}}>
            <TextInput
             underlineColorAndroid='transparent' 
             style={{height:40, borderColor: 'gray', borderWidth: 1}}
