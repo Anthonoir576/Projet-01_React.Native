@@ -1,9 +1,7 @@
 import React, { useState }       from 'react';
-import { Text, 
-         View,
-         StyleSheet,
-         ActivityIndicator,
+import { View,
          TextInput }             from 'react-native';
+
 
 
 

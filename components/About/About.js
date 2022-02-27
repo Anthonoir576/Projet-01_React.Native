@@ -33,7 +33,7 @@ const About = () => {
                 À propos de moi
             </Text>
             <Text style={stylesAbout.content}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, placeat facere! Iure nisi culpa, consequuntur reiciendis rerum itaque cum praesentium quam perferendis quas. Itaque delectus voluptates modi iste consequatur. Molestiae!
+                Anthony FALVO développeur d'application web et web mobile, ingénieur software, et développeur d'application mobile sous react native. Sous la société FALVO ENTERPRISE. Ici votre problème, deviens notre solution ! Application Test de météo.
             </Text>
             <ActivityIndicator color='#ff0000' 
                                size='large' 
