@@ -11,7 +11,7 @@ const Navigation = () => {
     const navigation = useNavigation();
 
     const goToSearch = () => {
-        navigation.navigate('Search');
+        navigation.navigate('Application météo');
     };
 
     const goToAbout = () => {
@@ -19,17 +19,21 @@ const Navigation = () => {
     };
     
     return (
-        <View style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <View style={{marginTop: 35, alignItems: 'center', flexDirection: 'row-reverse', justifyContent: 'space-around'}}>
+        <View style={{ display: 'flex', width: '45%'}}>
           <Button
             title="About"
             onPress={goToAbout}
           />
+        </View>
+        <View style={{ display: 'flex', width: '45%' }}>
           <Button
             title="Search"
             onPress={goToSearch}
           />
         </View>
-      );
+      </View>
+    );
 };
 
 export default Navigation;
