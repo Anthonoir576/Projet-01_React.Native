@@ -1,21 +1,19 @@
 import React, { useState }       from 'react';
-import { Text, 
-         View,
-         StyleSheet,
-         ActivityIndicator,
+import { View,
          TextInput }             from 'react-native';
+
 
 
 
 const Search = () => {
 
-   const [ville, setVille] = useState('   ma ville');
+   const [ville, setVille] = useState('   Ma ville');
 
     return (
-        <View style={{marginTop: 10, margin: 1}}>
+        <View style={{marginTop: 0, margin: 1}}>
            <TextInput
             underlineColorAndroid='transparent' 
-            style={{height:40, borderColor: 'gray', borderWidth: 1, borderRadius: 5}}
+            style={{height:40, borderColor: 'transparent', borderWidth: 0, borderBottomWidth: .5, borderBottomColor: 'gray', opacity: .5, borderRadius: 5, backgroundColor: 'white', color: 'black'}}
             value={ville}
             onChangeText={(text) => {setVille(text)}}
            /> 

@@ -20,7 +20,7 @@ export default function App() {
       <Navigation />
       <Stack.Navigator>
         <Stack.Screen name="Application météo" component={Search} />
-        <Stack.Screen name="About" component={About} />
+        <Stack.Screen name="À propos" component={About} />
       </Stack.Navigator>
     </NavigationContainer>
   );
