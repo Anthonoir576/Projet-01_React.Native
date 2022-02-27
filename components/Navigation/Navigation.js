@@ -11,7 +11,7 @@ const Navigation = () => {
     const navigation = useNavigation();
 
     const goToSearch = () => {
-        navigation.navigate('Search');
+        navigation.navigate('Application météo');
     };
 
     const goToAbout = () => {

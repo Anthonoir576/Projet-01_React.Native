@@ -9,13 +9,13 @@ import { Text,
 
 const Search = () => {
 
-   const [ville, setVille] = useState('ma ville');
+   const [ville, setVille] = useState('   ma ville');
 
     return (
-        <View style={{marginTop: 40, margin: .5}}>
+        <View style={{marginTop: 10, margin: 1}}>
            <TextInput
             underlineColorAndroid='transparent' 
-            style={{height:40, borderColor: 'gray', borderWidth: 1}}
+            style={{height:40, borderColor: 'gray', borderWidth: 1, borderRadius: 5}}
             value={ville}
             onChangeText={(text) => {setVille(text)}}
            /> 
