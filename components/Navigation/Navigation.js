@@ -15,20 +15,20 @@ const Navigation = () => {
     };
 
     const goToAbout = () => {
-        navigation.navigate('About');
+        navigation.navigate('À propos');
     };
     
     return (
       <View style={{marginTop: 35, alignItems: 'center', flexDirection: 'row-reverse', justifyContent: 'space-around'}}>
         <View style={{ display: 'flex', width: '45%'}}>
           <Button
-            title="About"
+            title="à propos"
             onPress={goToAbout}
           />
         </View>
         <View style={{ display: 'flex', width: '45%' }}>
           <Button
-            title="Search"
+            title="Recherche"
             onPress={goToSearch}
           />
         </View>

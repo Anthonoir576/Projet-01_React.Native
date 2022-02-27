@@ -30,7 +30,7 @@ const About = () => {
     return (
         <View style={stylesAbout.container}>
             <Text style={stylesAbout.title}>
-                A propos de moi
+                À propos de moi
             </Text>
             <Text style={stylesAbout.content}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, placeat facere! Iure nisi culpa, consequuntur reiciendis rerum itaque cum praesentium quam perferendis quas. Itaque delectus voluptates modi iste consequatur. Molestiae!
