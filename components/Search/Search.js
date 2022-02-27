@@ -9,7 +9,7 @@ import { Text,
 
 const Search = () => {
 
-   const [ville, setVille] = useState('   ma ville');
+   const [ville, setVille] = useState('   Ma ville');
 
     return (
         <View style={{marginTop: 10, margin: 1}}>
