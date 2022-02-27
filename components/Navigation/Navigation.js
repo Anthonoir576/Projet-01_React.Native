@@ -19,15 +19,19 @@ const Navigation = () => {
     };
     
     return (
-        <View style={{marginTop: 20, flexDirection: 'column',  justifyContent: 'center' }}>
-          <Button
-            title="About"
-            onPress={goToAbout}
-          />
-          <Button
-            title="Search"
-            onPress={goToSearch}
-          />
+        <View style={{marginTop: 35, alignItems: 'center', flexDirection: 'row', justifyContent: 'space-around'}}>
+          <View style={{ display: 'flex', width: '48%'}}>
+            <Button
+              title="About"
+              onPress={goToAbout}
+            />
+          </View>
+          <View style={{ display: 'flex', width: '48%' }}>
+            <Button
+              title="Search"
+              onPress={goToSearch}
+            />
+          </View>
         </View>
       );
 };
