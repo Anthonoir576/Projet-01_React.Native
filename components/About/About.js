@@ -3,6 +3,7 @@ import { Text,
          View,
          StyleSheet,
          ActivityIndicator }     from 'react-native';
+import { Button }                from 'react-native';
 
 
 
@@ -39,6 +40,9 @@ const About = () => {
                                size='large' 
                                animating={true} 
             />
+            <View style={{width: '80%', borderRadius: 50, marginTop: 50}}>
+                <Button title='En savoir plus ?' />
+            </View>
         </View>
     );
 };
