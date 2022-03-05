@@ -20,13 +20,13 @@ const Navigation = () => {
     
     return (
       <View style={{marginTop: 10, alignItems: 'center', flexDirection: 'row-reverse', justifyContent: 'space-around'}}>
-        <View style={{ display: 'flex', width: '48%'}}>
+        <View style={{ display: 'flex', width: '48%', backgroundColor:'#a2273C'}}>
           <Button
             title="à propos"
             onPress={goToAbout}
           />
         </View>
-        <View style={{ display: 'flex', width: '48%' }}>
+        <View style={{ display: 'flex', width: '48%', backgroundColor:'#a2273C'}}>
           <Button
             title="Recherche"
             onPress={goToSearch}
