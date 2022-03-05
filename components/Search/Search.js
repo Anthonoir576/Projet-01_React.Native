@@ -9,6 +9,14 @@ const Search = () => {
 
    const [ville, setVille] = useState('   Ma ville');
 
+   const searchName = () => {
+    if (ville.length < 2) {
+        setVille('   Ma ville');
+    };
+   };
+   
+   searchName();
+
     return (
         <View style={{marginTop: 0, margin: 1}}>
            <TextInput
