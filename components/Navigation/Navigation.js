@@ -19,14 +19,14 @@ const Navigation = () => {
     };
     
     return (
-      <View style={{marginTop: 35, alignItems: 'center', flexDirection: 'row-reverse', justifyContent: 'space-around'}}>
-        <View style={{ display: 'flex', width: '45%'}}>
+      <View style={{marginTop: 10, alignItems: 'center', flexDirection: 'row-reverse', justifyContent: 'space-around'}}>
+        <View style={{ display: 'flex', width: '48%'}}>
           <Button
             title="à propos"
             onPress={goToAbout}
           />
         </View>
-        <View style={{ display: 'flex', width: '45%' }}>
+        <View style={{ display: 'flex', width: '48%' }}>
           <Button
             title="Recherche"
             onPress={goToSearch}

@@ -18,6 +18,7 @@ export default function App() {
 
     <NavigationContainer>
       <Navigation />
+      <StatusBar hidden={true} />
       <Stack.Navigator>
         <Stack.Screen name="Application météo" component={Search} />
         <Stack.Screen name="À propos" component={About} />
